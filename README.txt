@@ -1,2 +1,2 @@
-Este repositório contém o código referente ao lab1, da disciplina
+Este repositório é referente ao lab1, da disciplina
 Sistema de Informação I, UFCG.
