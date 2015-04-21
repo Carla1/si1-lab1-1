@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-BR">
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+     <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<ol class="breadcrumb">
+    <li><a href="index.html">Home</a><span class="divider"></li>
+    <li class="active">Cadastro</li>
+</ol>
+
+<div class="page-header">
+    <h1>Me convenci!
+        <small>Se interessou pela disciplina? Matricule-se por aqui:</small>
+    </h1>
+</div>
+<form class="form-horizontal">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Cadastro na Disciplina</legend>
+
+        <!-- Text input-->
+        <div class="control-group">
+            <label class="control-label" for="idName">Nome</label>
+
+            <div class="controls">
+                <input id="idName" name="idName" placeholder="Digite seu nome" class="input-xlarge" required=""
+                       type="text">
+
+                <p class="help-block">Digite seu nome completo</p>
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="control-group">
+            <label class="control-label" for="cpfInput">CPF</label>
+
+            <div class="controls">
+                <input id="cpfInput" name="cpfInput" placeholder="Digite seu CPF" class="input-xlarge" required=""
+                       type="text">
+
+                <p class="help-block">Cadastro de Pessoa Fisica</p>
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="control-group">
+            <label class="control-label" for="RGinput">RG</label>
+
+            <div class="controls">
+                <input id="RGinput" name="RGinput" placeholder="Digite seu RG" class="input-xlarge" required=""
+                       type="text">
+
+            </div>
+        </div>
+
+        <!-- Multiple Radios -->
+        <div class="control-group">
+            <label class="control-label" for="sexoEscolha">Sexo:</label>
+
+            <div class="controls">
+                <label class="radio" for="sexoEscolha-0">
+                    <input name="sexoEscolha" id="sexoEscolha-0" value="Masculino" checked="checked" type="radio">
+                    Masculino
+                </label>
+                <label class="radio" for="sexoEscolha-1">
+                    <input name="sexoEscolha" id="sexoEscolha-1" value="Feminino" type="radio">
+                    Feminino
+                </label>
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="control-group">
+            <label class="control-label" for="emailInput">Email</label>
+
+            <div class="controls">
+                <input id="emailInput" name="emailInput" placeholder="Digite seu email" class="input-xlarge" required=""
+                       type="text">
+
+            </div>
+        </div>
+
+        <!-- Button-->
+        <div class="container">
+            <a href="ultima-pagina.html">
+            <button type="button" class="btn btn-primary">Cadastre-se</button>
+            </a>
+        </div>
+
+    </fieldset>
+</form>
+
+
+</body>
+</html>
